@@ -1,0 +1,33 @@
+Created by: Profesor Búho
+
+Metacaracteres de coincidencias
+.	-> Coincidencia con cualquier carácter, excepto con el salto de línea.
+\d	-> Coincidencia con cualquier dígito (0-9).
+\D	-> Coincidencia con todo lo que no sea un dígito.
+\w	-> Coincidencia con caracteres comunes de palabras (a-z, A-Z, 0-9, _).
+\W	-> Coincidencia con todo lo que no sean los caracteres comunes de palabras.
+\s	-> Coincidencia con todos los tipos de espacio (espacio, tab, salto de línea).
+\S	-> Coincidencia con todo lo que no sea un tipo de espacio.
+
+
+Cuantificadores
+*	-> Selecciona 0 o más coincidencias.
++	-> Selecciona 1 o más coincidencias.
+?	-> Selecciona 0 o 1 coincidencia.
+{n}	-> Selecciona n coincidencias.
+{n, }	-> Selecciona de n en adelante coincidencias.
+{n, m}	-> Selecciona un mínimo de n coincidencias y un máximo de m coincidencias.
+
+
+Grupos y conjuntos
+()	-> Crear grupos
+[]	-> Coincide con los caracteres dentro de los corchetes.
+[^]	-> Coincide con todos los caracteres, menos los que están dentro de los corchetes.
+|	-> Condicional or
+
+
+Limites
+^	-> Especifica que la búsqueda es al inicio de una línea.
+$	-> Especifica que la búsqueda es hasta el fin de una línea.
+\b	-> Especifica que la búsqueda tiene como límite una palabra (\w).
+\B	-> Especifica que la búsqueda tiene como límite todo, menos una palabra (\w).
